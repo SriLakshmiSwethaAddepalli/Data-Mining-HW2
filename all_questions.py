@@ -123,7 +123,7 @@ def question3():
     answer["(f) attr for splitting"] = "Car type"
 
     # Explanatory text string
-    answer["(f) explain choice"] = "The Car type attribute has the lowest Gini index, suggesting that it leads to more pure subsets after splitting. This makes it the best choice for the root node in our analysis."
+    answer["(f) explain choice"] = "The attribute "Car type" demonstrates the smallest Gini index, indicating that it results in more homogeneous subsets after partitioning. Hence, it stands out as the optimal selection for the root node in our analysis."
     return answer
 
 
