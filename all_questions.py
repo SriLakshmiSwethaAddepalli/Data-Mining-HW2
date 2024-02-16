@@ -146,13 +146,13 @@ def question4():
     answer["a"] = ['binary','qualitative','ordinal']
 
     # Explain if there is more than one interpretation. Repeat for the other questions. At least five words that form a sentence.
-    answer["a: explain"] = "Time, categorized as either AM or PM, is a binary qualitative attribute that falls into two clear categories."
+    answer["a: explain"] = "The attribute "Time," categorized as either "AM" or "PM," is a binary qualitative attribute with distinct and easily identifiable categories."
 
     answer["b"] = ['continuous','quantitative','ratio']
-    answer["b: explain"] = "The brightness, as assessed by a light meter, is a quantitative attribute that exists on a continuous scale with ratio properties."
+    answer["b: explain"] = "The brightness, evaluated using a light meter, is a quantitative attribute that is measured on a continuous scale and possesses ratio properties."
 
     answer["c"] = ['discrete','qualitative','ordinal']
-    answer["c: explain"] = "People's judgments of brightness can be seen as a continuous, qualitative attribute with an ordinal nature, reflecting subjective perceptions arranged by intensity."
+    answer["c: explain"] = "People's judgments of brightness can be viewed as a continuous qualitative attribute with an ordinal nature, representing subjective perceptions organized by intensity."
 
     answer["d"] = ['continuous','quantitative','ratio']
     answer["d: explain"] = "Angles, quantified in degrees within the range of 0 to 360, are continuous quantitative attributes that indicate ratios on a scale."
@@ -196,12 +196,12 @@ def question5():
 
     # string: one of 'Model 1' or 'Model 2'
     explain["a"] = "Model 2"
-    explain["a explain"] = " Model 2 is expected to perform better on unseen instances as it maintains similar accuracies on both datasets, indicating superior generalization compared to Model 1, where the drop in accuracy from Dataset A to B suggests overfitting."
+    explain["a explain"] = " Model 2 is likely to perform better on new data since it maintains similar accuracies across both datasets, indicating superior generalization compared to Model 1, which shows a drop in accuracy from Dataset A to B, suggesting overfitting."
     # string: one of 'Model 1' or 'Model 2'
     explain["b"] = "Model 2"
-    explain["b explain"] = "Even though Model 2 is a bit less accurate, it's still a better choice because it generalizes well and is less likely to overfit. In contrast, Model 1 had a big drop in accuracy on Dataset B."
+    explain["b explain"] = "While Model 2 may have a slightly lower accuracy, its superior ability to generalize and reduced risk of overfitting make it the better choice. In contrast, Model 1 experiences a notable decline in accuracy on Dataset B, highlighting its limitations."
     explain["c similarity"] = "Regularization Approach to Avoid Overfitting"
-    explain["c similarity explain"] = "Both methods use penalties to stop models from fitting too closely to the training data. MDL penalizes complex models by considering encoding cost. Pessimistic error penalizes complexity by adjusting for errors."
+    explain["c similarity explain"] = "Both methods employ penalties to prevent models from overfitting to the training data. The Minimum Description Length (MDL) approach penalizes complex models by factoring in encoding costs, while the Pessimistic Error method penalizes complexity by adjusting for errors."
     explain["c difference"] = "Model Optimization Criterion"
     explain["c difference explain"] = "MDL aims to minimize description length, preferring simpler models that encode data more concisely.Pessimistic error aims to minimize penalized error rate directly, by adjusting error higher for more complex models."
 
